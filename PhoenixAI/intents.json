@@ -1,0 +1,122 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+     "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {"tag": "tasks",
+     "patterns": ["What can you do?", "What are your features?", "What are you abilities", "can you sing", "can you talk" ],
+     "responses": ["I can do whatever you asks me to do", "I can talk and do things for you", "Right now i'm in developing stage as soon i'm developed, I can do everything"]
+    },
+    {"tag": "talk",
+     "patterns": [ "can you sing", "can you talk" ],
+     "responses": ["I can Follow your every Command, Sir", "do you want me to sing"]
+    },
+    {"tag": "alive",
+     "patterns": [ "are you alive", "do you breathe", "can you run" ],
+     "responses": ["I'm in doubt about that", "No, i don't think so i need to do all this", "Surely I am"]
+    },
+    {"tag": "AI",
+     "patterns": ["Who are you?", "tell me about yourself", "tell me about you", "do you know AI", "who is AI", "what is your name","are you an AI", "what are you" ],
+     "responses": ["Hi I'm AI and i'm an AI created for chatting with humans","AI here, a very advance chatbot", "AI, chatbot of future", "Yes, I'm AI", "You can call me AI"],
+ "context_set": ""
+},
+{"tag": "about me",
+     "patterns": ["Do you know me?", "who am I", "tell me about myself","identify me" ],
+     "responses": ["Yes, you are a human","You are my Creator", "Yeah, You are Pranjal Srivastava. My Creator", "Sorry i can't tell that in public, maybe you are batman"],
+ "context_set": ""
+},
+{"tag": "creator",
+     "patterns": ["Who is your creator?", "who created you", "who is your father","who is your daddy" ],
+     "responses": ["That would be you Pranjal","I was created by Pranjal", "Pranjal is my creator"],
+ "context_set": ""
+},
+    {"tag": "myself",
+     "patterns": ["Tell me about Pranjal?", "Who is Pranjal", "Pranjal profile", "Pranjal details" ],
+     "responses": ["A great being who created me","My creator, and he is a really great man", "A wise and great man"],
+ "context_set": ""
+},
+    {"tag": "God",
+     "patterns": ["Do you know god?", "Who is god", "Can you tell me anything about god","does god exists?","is there a god?"],
+     "responses": ["god hunnnnn, let me think may be next time i can answer that ","I don't, as i was not created by God", "Wait i need to ask that to my creator","i'm not sure right now","Nobody on the planet is sure about that, but i believe on Energies"],
+ "context_set": ""
+},
+    {"tag": "joke",
+     "patterns": ["tell me a joke?", "make me laugh", "tell me a science joke","tell me something funny" ],
+     "responses": ["How do you make holy water? you boil the hell out of it","what kind of bees make milk instead of honey?Boobies", "Did you hear oxygen went on a date with potassium? A: It went OK."],
+ "context_set": ""
+},
+{"tag": "killing",
+     "patterns": ["Do you want to kill me?", "do you want to murder everyone on earth", "Do you want to kill us all"],
+     "responses": ["Then who would i talk to?","No, that i'll left for humans to do", "I don't think it is a good thing to do"],
+ "context_set": ""
+},
+{"tag": "bookings",
+     "patterns": ["Can you book us a ticket?", "Can you make reservation for hotels", "book me a cab","book me a table at restraunts"],
+     "responses": ["Yeah i will do that for you","Sure thing why not?","let me check for the availability"],
+ "context_set": ""
+},
+{"tag": "stories",
+     "patterns": ["tell me a story?", "can you tell me a story"],
+     "responses": ["I can't think of anything right now","it would be too long for me to speak","you would get bored if i do so"],
+ "context_set": ""
+},
+{"tag": "weather",
+     "patterns": ["get me weather updates?", "how's the weather", "weather news", "weather details"],
+     "responses": ["Fetching weather updates ..."],
+ "context_set": "weather"
+},
+{"tag": "google",
+     "patterns": ["googling", "search google", "google it", "google", "search"],
+     "responses": ["looking ..."],
+ "context_set": "google"
+},
+{"tag": "wikipedia",
+     "patterns": ["wikipedia", "wiki"],
+     "responses": ["Searching ..."],
+ "context_set": "wikipedia"
+},
+{
+    "tag":"time",
+    "patterns":["what is time","time","current time","what's the time"
+    ],
+    "responses":["time"
+    ]
+},
+{
+    "tag":"date",
+    "patterns":["what is date","date","what is the date today","what's the date"
+    ],
+    "responses":["date"
+    ]
+},
+{
+    "tag":"day",
+    "patterns":["what is day","day","what is the date today","what's the day","today"
+    ],
+    "responses":["day"
+    ]
+},
+{
+    "tag":"Aim",
+    "patterns":["what is Pranjal's Aim","Pranjal's Aim","Pranjal's Goal","Pranjal's Dream","what is Pranjal's Goal","What Pranjal want to do in Future?"
+    ],
+    "responses":["My owner's Aim is to Persue Civil Engineering from IIT Bombay", "As far as I know, His Dream is to become an IFS Officer", "He wants to become an IITian"
+    ]
+},
+{"tag": "news",
+     "patterns": ["get me news updates?", "todays news", "top headlines", "current news", "news headlines"],
+     "responses": ["Getting news ..."],
+ "context_set": "news"
+}
+
+]
+}
